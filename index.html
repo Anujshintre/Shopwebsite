@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Saree Shop</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div id="intro"><img id="intro-logo" alt=""><h2 id="intro-name"></h2></div>
+
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#top" id="brand"></a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-label="Menu"><i class="bi bi-list"></i></button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#occasions">Collections</a></li>
+        <li class="nav-item"><a class="nav-link" href="#craft">Our craft</a></li>
+        <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Visit us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header id="top" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner" id="heroInner"></div>
+  <button class="carousel-control-prev" data-bs-target="#top" data-bs-slide="prev" aria-label="Previous"><span class="carousel-control-prev-icon"></span></button>
+  <button class="carousel-control-next" data-bs-target="#top" data-bs-slide="next" aria-label="Next"><span class="carousel-control-next-icon"></span></button>
+</header>
+
+<section class="sec cream"><div class="container" id="strip"></div></section>
+
+<section class="sec green" id="occasions"><div class="container">
+  <h2 class="text-center" id="occTitle" data-aos="fade-up"></h2><p class="sub text-center" data-aos="fade-up">Curated styles for moments that matter</p>
+  <div class="row g-3 g-lg-4 mt-2" id="occGrid"></div>
+</div></section>
+
+<section class="split" id="craft">
+  <div class="split-l" id="craftL" data-aos="fade-right"></div>
+  <div class="split-r" id="craftR" data-aos="fade-left"></div>
+</section>
+
+<section class="sec cream" id="reviews-sec"><div class="container">
+  <h2 class="text-center mb-5" data-aos="fade-up">Loved by women who value elegance</h2>
+  <div class="row g-4" id="reviews"></div>
+</div></section>
+
+<section class="sec green" id="contact"><div class="container"><div class="row g-4 align-items-stretch">
+  <div class="col-lg-5" data-aos="fade-right"><div class="contact" id="contactBox"></div></div>
+  <div class="col-lg-7" data-aos="fade-left"><iframe id="mapFrame" title="Shop location" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+</div></div></section>
+
+<footer><p id="foot"></p></footer>
+<a id="wa" class="wa" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><i class="bi bi-whatsapp"></i></a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
